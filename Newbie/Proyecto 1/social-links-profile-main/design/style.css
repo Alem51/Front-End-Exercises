@@ -1,66 +1,65 @@
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /* Ajusta la base del tamaño de fuente a 10px para facilitar los cálculos de rem */
 }
 
 body {
-    font-size: 16px; /* 1 rem = 10px */
-    background-color: #141414;
-    color: #ffffff;
-    font-family: "Open Sans", sans-serif;
+    font-size: 16px; /* Establece el tamaño de fuente base del body a 16px (1rem = 10px * 1.6) */
+    background-color: #141414; /* Color de fondo oscuro para todo el body */
+    color: #ffffff; /* Color del texto en blanco */
+    font-family: "Open Sans", sans-serif; /* Fuente principal del cuerpo */
 }
 
 .card {
-    background-color: #1f1f1f;
-    border: 1px solid #333333;
-    border-radius: 5px;
-    padding: 4rem;
-    margin: 10rem 75rem;
-
+    background-color: #1f1f1f; /* Fondo oscuro para las tarjetas */
+    border: 1px solid #333333; /* Borde de las tarjetas con un color más claro */
+    border-radius: 5px; /* Bordes redondeados en las tarjetas */
+    padding: 4rem; /* Relleno interior de las tarjetas de 4rem (40px) */
+    margin: 10rem 75rem; /* Márgenes superior/inferior de 10rem y laterales de 75rem */
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    display: block; /* Hace que la imagen sea un bloque, ocupando todo el ancho disponible */
+    margin-left: auto; /* Centra horizontalmente la imagen al margen izquierdo en automático */
+    margin-right: auto; /* Centra horizontalmente la imagen al margen derecho en automático */
+    border-radius: 50%; /* Hace que la imagen tenga forma circular */
+    width: 10rem; /* Establece el ancho de la imagen en 10rem (100px) */
+    height: 10rem; /* Establece la altura de la imagen en 10rem (100px) */
 }
 
 h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    font-size: 3rem; /* Tamaño de la fuente del título principal a 3rem (30px) */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 2rem; /* Añade un margen inferior de 2rem (20px) */
 }
 
 h2 {
-    font-size: 2rem;
-    text-align: center;
-    color: #C1D769;
+    font-size: 2rem; /* Tamaño de la fuente de los subtítulos a 2rem (20px) */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #C1D769; /* Establece el color del texto a un tono verde claro */
 }
 
 p {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 4rem;
+    font-size: 2rem; /* Tamaño de la fuente de los párrafos a 2rem (20px) */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 4rem; /* Añade un margen superior de 4rem (40px) */
 }
 
 .navegacion-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
+    display: flex; /* Utiliza flexbox para la disposición de los elementos */
+    flex-direction: column; /* Organiza los elementos de la navegación en una columna */
+    justify-content: space-between; /* Distribuye espacio entre los elementos */
+    align-items: center; /* Alinea los elementos al centro horizontalmente */
+    padding: 2rem; /* Añade un relleno interno de 2rem (20px) */
 }
 
 .navegacion-principal a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 1rem;
-    background-color: #333333;
-    border-radius: 1rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1rem;
+    color: #ffffff; /* Establece el color del texto de los enlaces a blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 2rem; /* Tamaño de la fuente de los enlaces a 2rem (20px) */
+    padding: 1rem; /* Añade un relleno interno de 1rem (10px) */
+    background-color: #333333; /* Color de fondo oscuro para los enlaces */
+    border-radius: 1rem; /* Bordes redondeados de 1rem (10px) en los enlaces */
+    width: 100%; /* Los enlaces ocupan el 100% del ancho disponible */
+    text-align: center; /* Centra el texto dentro de los enlaces */
+    margin-bottom: 1rem; /* Añade un margen inferior de 1rem (10px) entre los enlaces */
 }

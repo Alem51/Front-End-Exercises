@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%; /* Esto hace que 1 rem = 10px */
+}
+
+body {
+    font-size: 16px; /* 1 rem = 10px ahora */
+    background-color: #F5D04E;
+}
+
+.card {
+    background-color: #FFFFFF; /* Color de fondo */
+    border: 0.1rem solid #000; /* Borde de la card 1px */
+    border-radius: 1rem; /* Borde redondeado */
+    padding: 4rem; /* Espaciado interno */
+    margin: 10rem 75rem; /* Margen superior e inferior de 10rem y margen izquierdo y derecho de 75rem */
+}
+
+.img1 {
+    display: block; /* Hace que la imagen se muestre como bloque */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+    width: 30rem; /* Ancho de la imagen */
+    height: 20rem; /* Altura de la imagen */
+}
+
+.etiqueta {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.4rem; /* Ajuste del tamaño de la fuente */
+    background-color: #F5D04E; /* Color de fondo amarillo */
+    padding: 0.1rem 1.5rem 0.1rem 1.5rem; /* Espaciado interno ajustado para ser más compacto */
+    border-radius: 0.5rem; /* Bordes redondeados ajustados */
+    display: inline-block; /* Para que la etiqueta no ocupe todo el ancho */
+    margin: 1.5rem 0.3rem; /* Margen superior e inferior de 1.5rem y margen izquierdo y derecho de 0.3rem */
+}
+
+h1 {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 2rem; /* Tamaño de la fuente */
+}
+
+.img2 {
+    width: 5rem; /* Ancho de la imagen */
+    height: 5rem; /* Altura de la imagen */
+    border-radius: 50%;
+}
+
+.img-name-container {
+    display: flex; /* Hace que los elementos hijos se muestren en fila */
+    align-items: center; /* Centra verticalmente los elementos en la fila */
+    gap: 1rem; /* Espacio entre la imagen y el nombre */
+}
